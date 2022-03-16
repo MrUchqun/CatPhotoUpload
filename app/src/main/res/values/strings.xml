@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Cat Photos</string>
     <string name="internal_storage">Internal storage</string>
+    <string name="txt_upload">Upload</string>
+    <string name="txt_uploaded">Uploaded</string>
+    <string name="txt_uploading_fail">Uploading failed</string>
 </resources>

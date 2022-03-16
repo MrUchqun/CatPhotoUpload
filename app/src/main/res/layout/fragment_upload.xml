@@ -57,17 +57,34 @@
 
     </FrameLayout>
 
-    <com.kusu.loadingbutton.LoadingButton
-        android:id="@+id/btn_upload"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/shape_border_15"
-        android:backgroundTint="#805DFE"
-        android:fontFamily="@font/chelsea_market"
-        android:text="Choose photo"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="18sp" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp">
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/shape_border_15"
+            android:backgroundTint="#805DFE"
+            android:fontFamily="@font/chelsea_market"
+            android:stateListAnimator="@null"
+            android:text="Choose photo"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/white"
+            android:translationZ="2dp"
+            android:visibility="gone" />
+
+    </FrameLayout>
 
 </LinearLayout>

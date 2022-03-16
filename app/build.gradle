@@ -45,12 +45,6 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 
-    // For get file type
-    implementation "commons-io:commons-io:2.6"
-
-    // Loading button
-    implementation 'com.github.koushikcse:LoadingButton:1.7'
-
     // Lottie animation view
     implementation "com.airbnb.android:lottie:4.2.2"
 
@@ -58,8 +52,4 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.13.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
 
-    // FishBun for pick image
-    implementation 'io.github.sangcomz:fishbun:1.0.0-alpha06'
-
-    implementation 'com.squareup.okhttp3:logging-interceptor:3.0.1'
 }
